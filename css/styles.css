@@ -55,12 +55,71 @@ blockquote {
 	padding: 0; 
 	border: none;
 }   
-	blockquote p:last-child {
-		padding-bottom: 0 !important; 
-	}                      		
-                                                                    
+blockquote p:last-child {
+	padding-bottom: 0 !important; 
+}                      		
 
 
+/*Contact Form*/
+#enquiry {
+	font-size:20px;
+}
+.sideforms li{
+	margin-bottom:1px;
+	vertical-align:top;
+	list-style-type: none;
+}
+#formDiv {
+	width:50%;
+	padding-right:10px;
+	float:left;
+	border-right: 2px solid #bc1323;
+}
+#rightContent {
+	float: right;
+	width: 45%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sideforms li label{
+	width: 25%;
+	vertical-align:top;
+	font-weight: bold;
+	color: #f47b2a;
+}
+.sideforms li input, .sideforms li #message{
+	width:75%;
+	float:right;
+}
+button {
+  color: #900;
+  border: 1px solid #900;
+  font-weight: bold;
+}
+.help-block, .form-error {
+    display:block;
+    width:100%;
+	font-size:12px;
+	color:#bc1323;
+	text-align:right;
+}
+input[type=submit] {
+	background-color:#00467f;
+	color:#fff;
+	font-family:'Helvetica Neue',sans-serif;
+	font-size:18px;
+	line-height:30px;
+	border-radius:20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	border:0;
+	text-shadow:#C17C3A 0 -1px 0;
+	width:120px;
+	height:32px; 
+}
+	
+	
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
 	font-family: arial, sans-serif; 
@@ -71,8 +130,8 @@ h1, h2, h3, h4, h5, h6 {
 } 
 
 h1 {
-	font-size: 34px; 
-	margin-top: 5px; 
+	font-size: 25px; 
+	margin-top: 15px; 
 	margin-bottom: 20px; 
 	text-shadow: 2px 1px 1px #BBB; 
 	font-family: 'Questrial', sans-serif; 
@@ -85,15 +144,15 @@ h2 {
 	color: #f47b2a;
 }      
 	
-h3 {
-	font-size: 20px; 
+h3, h2 .grade {
+	font-size: 17px; 
 	margin-top: 10px; 
 	font-weight: bold;
 	color: #bc1323;
 }
 		                                                                                  
 h4 {
-	font-size: 20px; 
+	font-size: 15px; 
 	margin-top: 10px; 
 	font-weight: bold;
 	color: #005395;
@@ -125,7 +184,7 @@ h6 {
 	width: 900px;
 	height: 101px;
 	float: left; 
-	margin: 35px 0 0 0;
+	margin: 10px 0 0 0;
 }
 
 #title-area a {
@@ -266,7 +325,7 @@ li:hover, li.sfHover {
 	overflow: hidden;
 }
 
-#wrap #nav .wrap #menu-main-navigation .menu-extras .phone #phonelink {
+#wrap #nav .wrap #menu-main-navigation .menu-extras .phone #phonelink, #rightContent p a {
     background: none repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
     box-shadow: 0 0 0 #fff !important;
     color: #969696;
@@ -276,6 +335,13 @@ li:hover, li.sfHover {
     overflow: hidden;
 	padding: 0;
 }	
+#rightContent p a {
+	cursor: pointer;
+	text-decoration:none;
+}
+#rightContent p a:hover{
+	color: #bc1323;
+}
 		
 .menu-extras li.phone {
 	padding-top: 23px !important;
@@ -336,9 +402,9 @@ li:hover, li.sfHover {
 	margin: 0 auto;
 	position: relative; 
 	z-index: 100;                             
-	min-height: 300px;
+	min-height: 310px;
 	height: auto !important;
-	height: 300px;   
+	height: 310px;   
 	clear: both;    
 	padding: 30px 0;       
 }
@@ -359,7 +425,7 @@ li:hover, li.sfHover {
 	line-height: 18px; 
 	margin: 0 auto;   
 	width: 960px;
-	padding: 30px 0 25px; 
+	padding: 15px 0 10px; 
 }  
                    
 #footer-widgets h4 {

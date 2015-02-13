@@ -1,0 +1,39 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>About Blingo MetaSearch Engine</title>
+<link href="blingostyle.css" rel="stylesheet" type="text/css" />
+<script src="jsFunctions.js"></script>								<!-- link the javascript functions file -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script> <!-- link jquery -->
+</head>
+
+<body>
+<div id="wrapper"> 
+  <div id="navigation">
+    <ul id="menu-bar">
+    <li><a href="blingo.html">Home</a></li>
+    <li class="active"><a href="#">About</a></li>
+    <li><a href="feedback.php">Feedback</a></li>
+    </ul>
+  </div>
+  <div id="outerlogo">
+    <div id="logo"><img src="images/logo.png" width="400" height="104" alt="Blingo Logo" /></div>
+  </div>
+  <div id="aboutBody">
+  <h2 id ="greyheading">About Blingo</h2>
+  <h3>Metasearch</h3>
+  <p>Blingo is a metasearch engine. Our aim is to take the results from the major search engines Google, Bing and Blekko and process them in such a way as to return a better results set than any of them. We use an aggregation technique known as Reciprocal Rank Fusion to aggregate the results. This algroithm has proved to be very effective in improving the accuracy of the results.</p>
+  <h3>Boolean Search</h3>
+  <p>The format for performing boolean searches is as follows: </p>
+  <p>AND is implied by default so there is no need to add it to your searches</p>
+  <p>OR searches can be performed in the following 2 ways: <br /> "knives OR forks" (note uppercase OR) <br /> "knives || forks" </p>
+  <p>NOT searches can be performed in the following 3 ways: <br /> "knives NOT forks (note uppercase NOt <br /> "knives - forks" <br /> "knives -forks"</p>
+  <h3>Query Preprocessing</h3>
+  <p>When this option is turned on we do some work on your query. To improve performance we remove punctuation marks and stopwords from the query. Stopwords are taken from a list of very common words, e.g. "it" "the" or "for". </p>
+  <h3>Clustering</h3>
+  <p>When this option is turned on we categorise the Blingo results. To do this we use the k-means algorithm to group them into categories. Note: when this option is selected we will be a few seconds slower in returning results due to the extra processing required.</p>
+  </div>
+</div>
+</body>
+</html>

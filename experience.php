@@ -21,10 +21,44 @@
 <div id="home-featured"></div><!-- blue line under nav bar-->
 <div id="inner">
 <div class="wrap">
-<h2>Main Content goes here</h2>
-<p>Write some stuff here</p>
-<h3>Main Content goes here</h3>
-<p>Write some stuff here</p>
+
+
+<h1>BAU Team Lead <span class="grade">Dedsert</span></h1>
+<h2>(December 2014 – Present) Sandyford Industrial Estate, Dublin</h2>
+<ul>
+  <li>Managing 7 Application Support Engineers in the BAU (Business As Usual) team.</li>
+  <li>Ensuring certain daily tasks are completed and documented by the team.</li>
+  <li>Investigating and solving customer support tickets assigned to me using JIRA issue tracking software.</li>
+  <li>Completing Frontend development tasks using PHP’s CodeIgniter Framework.</li>
+  <li>Estimating, overseeing and assigning development tasks to members of the BAU team.</li>
+  <li>Communicating with interested parties on the progress of development tasks.</li>
+  <li>Using and customising python scripts and MySQL queries to fix common customer issues.</li>
+  <li>Leading daily stand-ups as part of the AGILE process of software development.</li>
+  <li>Quality Assurance/Software testing prior to and during new releases.</li>
+</ul>
+
+<h1>Application Support Engineer <span class="grade">Dedsert</span></h1>
+<h2>February 2014 – December 2014 (11 months)Sandyford Industrial Estate</h2>
+<ul>
+<li>Investigating and solving tickets raised by the customer support team assigned to me using JIRA issue tracking software.</li>
+<li>Using and customising python scripts and MySQL queries to fix common customer issues.</li>
+<li>Generating custom reports using MySQL.</li>
+<li>Completing Frontend development tasks using PHP’s CodeIgniter Framework.</li>
+<li>Taking part in daily stand-ups as part of the AGILE process of software development.</li>
+<li>Quality Assurance/Software testing prior to and during new releases.</li>
+<li>Logging into the Linux servers to view logs and investigate problems.</li>
+</ul>
+
+<h1>Agricultural Consultant <span class="grade">Breen Agricultural Services Ltd.</span></h1>
+<h2>June 2005 – September 2012 (7 years 4 months)Co. Wexford, Ireland</h2>
+<ul>
+<li>Liaising with customers and advising them on crop protection.</li>
+<li>Production of liquid fertiliser using the automated manufacturing plant.</li>
+<li>IT manager</li>
+<li>Stock Control & Logistics</li>
+<li>Logistics</li>
+<li>Management of employees</li>
+</ul>
 </div><!-- end .wrap -->
 </div><!-- end #inner -->
 

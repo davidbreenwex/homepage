@@ -21,10 +21,17 @@
 <div id="home-featured"></div><!-- blue line under nav bar-->
 <div id="inner">
 <div class="wrap">
-<h2>Main Content goes here</h2>
-<p>Write some stuff here</p>
-<h3>Main Content goes here</h3>
-<p>Write some stuff here</p>
+
+<h1>About Me</h1>
+<p>I am a graduate of University College Dublin, where first studied for a 4 year Agricultural Science Degree. I worked for 7 years in my family business Breen Agricultural Services Ltd. I always had an ambition to work in IT and when I got the opportunity to go back to college to complete a Masters in Computer Science I jumped at the chance. I really enjoyed the course and graduated with first class honors. You can see some of the examples of my course work <a href="portfolio">here</a></p>
+ 
+<p>I started work as an Application Support Engineer before the course was finished. The position was at Dedsert, an online sports betting company. I was promoted to BAU Team Lead after 8 months working in the company. This is my current position. You can learn more about my work experience <a href="/davidbreen2/experience.php">here</a> or check out my <a href="https://ie.linkedin.com/in/davidbreenwex/en">Linkedin page</a>.</p>
+
+<p>
+</p>
+
+<p>If you require any further information or would like to get in touch, please feel free to <a href="/davidbreen2/contact.php">contact me</a>.</p>
+
 </div><!-- end .wrap -->
 </div><!-- end #inner -->
 
